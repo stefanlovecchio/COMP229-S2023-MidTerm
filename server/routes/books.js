@@ -54,11 +54,11 @@ router.post('/add', async (req, res, next) => {
 });
 
 // GET the Book Details page in order to edit an existing Book
-router.get('/:id', (req, res, next) => {
+router.get('/:id', async (req, res, next) => {
     let id = req.params.id;
 
     try {
-      let bookToEdit = book.findById(id);
+      let bookToEdit = await book.findById(id);
       res.render('books/details', 
       {title: 'Edit Book', 
       books: bookToEdit})
