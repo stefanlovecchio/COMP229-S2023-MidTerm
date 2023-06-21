@@ -1,3 +1,5 @@
+/* server.js Stefan Lovecchio #301305372 My Favourite Books app*/
+
 let app = require('./server/config/app');
 let debug = require('debug')('comp308-w2019-midterm:server');
 let http = require('http');

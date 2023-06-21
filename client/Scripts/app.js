@@ -1,4 +1,4 @@
-/* custom JS goes here */
+/* app.js Stefan Lovecchio #301305372 My Favourite Books app*/
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
 $.fn.pageMe = function(opts){

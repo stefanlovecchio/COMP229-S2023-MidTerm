@@ -1,3 +1,4 @@
+/* books.js Stefan Lovecchio #301305372 My Favourite Books app*/
 let mongoose = require('mongoose');
 
 // create a model class
